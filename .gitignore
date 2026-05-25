@@ -1,0 +1,9 @@
+diagrams/
+ref/
+**secret**
+**secrets**
+*.env
+.env*
+
+dist/
+build/
