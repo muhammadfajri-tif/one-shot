@@ -57,11 +57,17 @@ A: I believe the **good analysis and design aren't built in less than one week**
 Q: Ada alesan lain kenapa bikin ini? </br>
 A: Kalau disuruh buat hal yang complex pake AI dari web (misal [gemini.google.com](https://gemini.google.com), atau [chatgpt.com](https://chatgpt.com)), biasanya keseringan dapet limit.
 
+Q: Serius bisa single shot? </br>
+A: Mungkin bisa. Mungkin enggak. Enggak bisa menjamin. Tergantung model yang dipakai, termasuk juga limit-nya. Tapi harusnya bisa mempermudah dan mempercepat workflow pembuatan SRS & SDD nya. Kalau session-nya terputus, tinggal bilang 'continue' harusnya bisa lanjutin kerjaan yang ke pending.
+
 Q: any tips? </br>
 A: Convert tabel-tabel excel/sheet jadi tabel markdown karena bisa mempermudah (sekaligus memperkecil token yang dipakai). Convert juga PDF yang singkat-singkat jadi TXT atau markdown. Kalau gambar, lebih enak pakai PNG.
 
 Q: Kok AI gw ga bisa baca PDF? </br>
 A: Coba install Agent Skills buat baca [PDF](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md), atau baca [docx juga bisa kok.](https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md) Tutorial cara install di OpenCode ada [disini](https://opencode.ai/docs/skills/#place-files)
+
+Q: Kalau udah selesai gimana? </br>
+A: Copas aja SRS.md atau SDD.md nya ke word/gdocs. Yang gambar tinggal screenshot aja. Setelah itu convert ke PDF.
 
 Q: Hasilnya jelek! Scam! </br>
 A: Skill issue. Tunning your own model. Tunning your own config and tools. OpenCode/Claude Code/atau AI Coding Agent itu canggih dan banyak fitur. Pake model bego aja hasilnya bisa bagus kalau maksimalin tools + fitur yang ada dan prompt nya bagus
