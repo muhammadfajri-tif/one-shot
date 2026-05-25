@@ -54,6 +54,9 @@
 Q: Kenapa bikin ini? </br>
 A: I believe the **good analysis and design aren't built in less than one week**. So, we only have 'one' choice: **let the clankers do their works**.
 
+Q: Ada alesan lain kenapa bikin ini? </br>
+A: Kalau disuruh buat hal yang complex pake AI dari web (misal [gemini.google.com](https://gemini.google.com), atau [chatgpt.com](https://chatgpt.com)), biasanya keseringan dapet limit.
+
 Q: any tips? </br>
 A: Convert tabel-tabel excel/sheet jadi tabel markdown karena bisa mempermudah (sekaligus memperkecil token yang dipakai). Convert juga PDF yang singkat-singkat jadi TXT atau markdown. Kalau gambar, lebih enak pakai PNG.
 
